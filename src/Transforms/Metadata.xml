@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+    
+    <attr path="/api/package[@name='com.twilio.video']" name="managedName">TwilioVideo</attr>
+    
+    <attr path="/api/package[@name='org.webrtc']/class[@name='StatsReport.Value']" name="managedName">StatsReportValue</attr>
+    
+    <attr path="/api/package[@name='org.webrtc']/interface[@name='CameraSession']" name="visibility">public</attr>
+
+    <remove-node path="/api/package[@name='org.webrtc']/class[@name='Camera1Capturer']/method[@name='getCameraSession' and count(parameter)=0]"/>
+    
+    <attr path="/api/package[@name='com.twilio.video']/
+        interface[@name='RemoteDataTrack.Listener']/
+        method[@name='onMessage' and count(parameter)=2 and parameter[1][@type='com.twilio.video.RemoteDataTrack'] and parameter[2][@type='java.lang.String']]"
+        name="argsType">Message1EventArgs</attr>
+
+    <attr path="/api/package[@name='com.twilio.video']/
+        interface[@name='RemoteDataTrack.Listener']/
+        method[@name='onMessage' and count(parameter)=2 and parameter[1][@type='com.twilio.video.RemoteDataTrack'] and parameter[2][@type='java.nio.ByteBuffer']]"
+        name="argsType">Message2EventArgs</attr>
+
+    <attr path="/api/package[@name='com.twilio.video']/
+        interface[@name='RemoteDataTrack.Listener']/
+        method[@name='onMessage' and count(parameter)=2 and parameter[1][@type='com.twilio.video.RemoteDataTrack'] and parameter[2][@type='java.lang.String']]"
+        name="managedName">OnMessage1</attr>
+
+    <attr path="/api/package[@name='com.twilio.video']/
+        interface[@name='RemoteDataTrack.Listener']/
+        method[@name='onMessage' and count(parameter)=2 and parameter[1][@type='com.twilio.video.RemoteDataTrack'] and parameter[2][@type='java.nio.ByteBuffer']]"
+        name="managedName">OnMessage2</attr>
+    
+</metadata>
