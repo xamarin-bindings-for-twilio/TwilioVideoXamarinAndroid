@@ -10,6 +10,9 @@ Twilio Video Android SDK binding for Xamarin
 ## How to Build
 
 ### Twilio.Video Android 4.3.1 (August 23rd, 2019)
+
+_AndroidDexTool_ should be set to _d8_ for _TargetFrameworkVersion_ == _v9.0_ or later
+
 ```
 The aar is already included into this repostiory. So just build the project.    
 ```    
