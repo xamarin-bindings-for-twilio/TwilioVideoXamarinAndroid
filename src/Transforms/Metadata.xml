@@ -28,5 +28,9 @@
         interface[@name='RemoteDataTrack.Listener']/
         method[@name='onMessage' and count(parameter)=2 and parameter[1][@type='com.twilio.video.RemoteDataTrack'] and parameter[2][@type='java.nio.ByteBuffer']]"
         name="managedName">OnMessage2</attr>
+   
+     <attr path="/api/package[@name='com.twilio.video']/
+        interface[@name='Room.Listener']/
+        method[@name='onDominantSpeakerChanged' and count(parameter)=2]" name="abstract">true</attr>
     
 </metadata>
