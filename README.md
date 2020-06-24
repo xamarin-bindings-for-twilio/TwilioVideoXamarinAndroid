@@ -4,7 +4,7 @@ Twilio Video Android SDK binding for Xamarin
 
 [![NuGet][nuget-img]][nuget-link]
 
-[nuget-img]: https://img.shields.io/badge/nuget-4.3.1.1-blue.svg
+[nuget-img]: https://img.shields.io/badge/nuget-5.8.1.0-blue.svg
 [nuget-link]: https://www.nuget.org/packages/Twilio.Video.Android.XamarinBinding
 
 ## How to Build
