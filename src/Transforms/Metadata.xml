@@ -3,11 +3,11 @@
     
     <attr path="/api/package[@name='com.twilio.video']" name="managedName">TwilioVideo</attr>
     
-    <attr path="/api/package[@name='org.webrtc']/class[@name='StatsReport.Value']" name="managedName">StatsReportValue</attr>
+    <attr path="/api/package[@name='tvi.webrtc']/class[@name='StatsReport.Value']" name="managedName">StatsReportValue</attr>
     
-    <attr path="/api/package[@name='org.webrtc']/interface[@name='CameraSession']" name="visibility">public</attr>
+    <attr path="/api/package[@name='tvi.webrtc']/interface[@name='CameraSession']" name="visibility">public</attr>
 
-    <remove-node path="/api/package[@name='org.webrtc']/class[@name='Camera1Capturer']/method[@name='getCameraSession' and count(parameter)=0]"/>
+    <remove-node path="/api/package[@name='tvi.webrtc']/class[@name='Camera1Capturer']/method[@name='getCameraSession' and count(parameter)=0]"/>
     
     <attr path="/api/package[@name='com.twilio.video']/
         interface[@name='RemoteDataTrack.Listener']/
