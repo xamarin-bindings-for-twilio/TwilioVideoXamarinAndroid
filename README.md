@@ -26,8 +26,8 @@ $ unzip video-android-4.3.1.aar -d tempFolder
 $ jar cvf video-android-4.3.1.aar -C tempFolder/ .
 ```
 
-####
-Changed properties scaleType, mirror, or overlaySurface have been prefixed. These attributes defined for VideoView and VideoTextureView have been prefixed with tvi to prevent attribute name clashes. Reference the following snippets to update your application layout files. For example: app:tviScaleType="fit"
+#### Changed properties
+ScaleType, mirror, or overlaySurface have been prefixed. These attributes defined for VideoView and VideoTextureView have been prefixed with tvi to prevent attribute name clashes. Reference the following snippets to update your application layout files. For example: app:tviScaleType="fit"
 
 ##### Proguard settings
 
