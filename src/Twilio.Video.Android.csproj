@@ -34,16 +34,6 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <PackOnBuild>true</PackOnBuild>
-    <PackageId>Twilio.Video.Android.XamarinBinding</PackageId>
-    <PackageVersion>4.3.1.1</PackageVersion>
-    <Authors>twilio dkornev</Authors>
-    <Owners>twilio</Owners>
-    <PackageProjectUrl>https://github.com/dkornev/TwilioVideoXamarinAndroid</PackageProjectUrl>
-    <Summary>Twilio Video Android SDK binding for Xamarin Android</Summary>
-    <Title>Twilio Video Android SDK</Title>
-    <Description>With Twilio, you can quickly make and receive video calls in your application.</Description>
-    <PackageTags>twilio xamarin</PackageTags>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
   </PropertyGroup>
