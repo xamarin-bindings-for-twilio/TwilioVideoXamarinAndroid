@@ -9,7 +9,7 @@ Twilio Video Android SDK binding for Xamarin
 
 ## How to Build
 
-### Twilio.Video Android 4.3.1 (August 23rd, 2019)
+### Twilio.Video Android 5.8.1 (June 16th, 2020)
 
 _AndroidDexTool_ should be set to _d8_ for _TargetFrameworkVersion_ == _v9.0_ or later.
 You also need ReLinker Xamarin Bindings for Android: https://github.com/xbindings/relinker-android-binding
@@ -25,6 +25,9 @@ $ unzip video-android-4.3.1.aar -d tempFolder
 # Change whatever you need    
 $ jar cvf video-android-4.3.1.aar -C tempFolder/ .
 ```
+
+####
+Changed properties scaleType, mirror, or overlaySurface have been prefixed. These attributes defined for VideoView and VideoTextureView have been prefixed with tvi to prevent attribute name clashes. Reference the following snippets to update your application layout files. For example: app:tviScaleType="fit"
 
 ##### Proguard settings
 
@@ -44,7 +47,7 @@ $ jar cvf video-android-4.3.1.aar -C tempFolder/ .
 
 Members of the community have contributed to improving and update bindings:
 
-- none
+- Jørgen (@jtorvald)
 
 If you have a bugfix or an update you'd like to add, please open an issue. 
 All pull requests should be opened against the `master` branch.
