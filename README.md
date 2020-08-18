@@ -4,12 +4,12 @@ Twilio Video Android SDK binding for Xamarin
 
 [![NuGet][nuget-img]][nuget-link]
 
-[nuget-img]: https://img.shields.io/badge/nuget-5.8.1.0-blue.svg
+[nuget-img]: https://img.shields.io/badge/nuget-5.10.1.0-blue.svg
 [nuget-link]: https://www.nuget.org/packages/Twilio.Video.Android.XamarinBinding
 
 ## How to Build
 
-### Twilio.Video Android 5.8.1 (June 16th, 2020)
+### Twilio.Video Android 5.10.1 (August 6th, 2020)
 
 _AndroidDexTool_ should be set to _d8_ for _TargetFrameworkVersion_ == _v9.0_ or later.
 You also need ReLinker Xamarin Bindings for Android: https://github.com/xbindings/relinker-android-binding
@@ -21,9 +21,9 @@ or
 
 Download aar/jar version you needed from https://bintray.com/twilio/releases/video-android and copy it to src\Jars. Then you will need to change res/values/values.xml and add missing \<attr format="boolean" name="overlaySurface"/> attribute there. And rename /src/Jars/ARR/libs/libwebrtc.jar to libwebrtc_2.jar if you are going to use Twilio.Voice SDK in you project.
 ```    
-$ unzip video-android-4.3.1.aar -d tempFolder    
+$ unzip video-android-5.10.1.aar -d tempFolder    
 # Change whatever you need    
-$ jar cvf video-android-4.3.1.aar -C tempFolder/ .
+$ jar cvf video-android-5.10.1.aar -C tempFolder/ .
 ```
 
 #### Changed properties
