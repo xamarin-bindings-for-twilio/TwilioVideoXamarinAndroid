@@ -33,4 +33,12 @@
         interface[@name='Room.Listener']/
         method[@name='onDominantSpeakerChanged' and count(parameter)=2]" name="abstract">true</attr>
     
+     <attr path="/api/package[@name='com.twilio.video']/
+        interface[@name='LocalParticipant.Listener']/
+        method[@name='onNetworkQualityLevelChanged']" name="abstract">true</attr>
+    
+     <attr path="/api/package[@name='com.twilio.video']/
+        interface[@name='RemoteParticipant.Listener']/
+        method[@name='onNetworkQualityLevelChanged']" name="abstract">true</attr>
+    
 </metadata>
