@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>Twilio.Video.Android.XamarinBinding</id>
-    <version>5.10.2.0</version>
+    <version>5.13.0.0</version>
     <authors>twilio dkornev</authors>
     <owners>twilio</owners>
     <projectUrl>https://github.com/dkornev/TwilioVideoXamarinAndroid</projectUrl>
@@ -11,7 +11,7 @@
     <summary>Twilio Video Android SDK binding for Xamarin Android</summary>
     <description>With Twilio, you can quickly make and receive video calls in your application.</description>
     <releaseNotes></releaseNotes>
-    <copyright>Copyright 2020</copyright>
+    <copyright>Copyright 2021</copyright>
     <tags>twilio xamarin</tags>
     <dependencies>
       <!-- <dependency id="SampleDependency" version="1.0" /> -->
