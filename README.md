@@ -9,7 +9,7 @@ Twilio Video Android SDK binding for Xamarin
 
 ## How to Build
 
-### Twilio.Video Android 5.13.0 (January 13, 2021)
+### Twilio.Video Android 6.2.0 (January 13, 2021)
 
 _AndroidDexTool_ should be set to _d8_ for _TargetFrameworkVersion_ == _v9.0_ or later.
 You also need ReLinker Xamarin Bindings for Android: https://github.com/xbindings/relinker-android-binding
