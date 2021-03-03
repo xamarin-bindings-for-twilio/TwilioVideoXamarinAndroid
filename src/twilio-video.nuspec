@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>Twilio.Video.Android.XamarinBinding</id>
-    <version>5.13.0.0</version>
+    <version>6.2.1.0</version>
     <authors>twilio dkornev</authors>
     <owners>twilio</owners>
     <projectUrl>https://github.com/dkornev/TwilioVideoXamarinAndroid</projectUrl>
