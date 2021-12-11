@@ -2,10 +2,10 @@
 <package >
   <metadata>
     <id>Twilio.Video.Android.XamarinBinding</id>
-    <version>6.2.1.0</version>
+    <version>7.0.3.0</version>
     <authors>twilio dkornev</authors>
     <owners>twilio</owners>
-    <projectUrl>https://github.com/dkornev/TwilioVideoXamarinAndroid</projectUrl>
+    <projectUrl>https://github.com/xamarin-bindings-for-twilio/TwilioVideoXamarinAndroid</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <title>Twilio Video Android SDK</title>
     <summary>Twilio Video Android SDK binding for Xamarin Android</summary>
@@ -20,6 +20,6 @@
     <!-- Optional 'files' node -->
     <files>
         <!--Android-->
-        <file src="bin/Release/Twilio.Video.Android.dll" target="lib/MonoAndroid10/Twilio.Video.Android.dll" />
+        <file src="bin/Release/Twilio.Video.Android.dll" target="lib/MonoAndroid11/Twilio.Video.Android.dll" />
     </files>
 </package>
