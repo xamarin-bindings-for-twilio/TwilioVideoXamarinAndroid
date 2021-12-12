@@ -3,7 +3,7 @@
   <metadata>
     <id>Twilio.Video.Android.XamarinBinding</id>
     <version>7.0.3.0</version>
-    <authors>twilio dkornev</authors>
+    <authors>twilio</authors>
     <owners>twilio</owners>
     <projectUrl>https://github.com/xamarin-bindings-for-twilio/TwilioVideoXamarinAndroid</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
@@ -14,7 +14,7 @@
     <copyright>Copyright 2021</copyright>
     <tags>twilio xamarin</tags>
     <dependencies>
-      <!-- <dependency id="SampleDependency" version="1.0" /> -->
+      <dependency id="Xamarin.ReLinker" version="1.4.4" />
     </dependencies>
   </metadata>
     <!-- Optional 'files' node -->
