@@ -53,7 +53,7 @@
   <ItemGroup>
     <None Include="Jars\AboutJars.txt" />
     <None Include="Additions\AboutAdditions.txt" />
-    <LibraryProjectZip Include="Jars\video-android-7.0.4.aar" />
+    <LibraryProjectZip Include="Jars\video-android-7.0.6.aar" />
   </ItemGroup>
   <ItemGroup>
     <TransformFile Include="Transforms\Metadata.xml" />
@@ -66,9 +66,9 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
-    <PackageReference Include="Xamarin.ReLinker">
-      <Version>1.4.4</Version>
-    </PackageReference>
+    <PackageReference Include="Xamarin.ReLinker" Version="1.4.4" />
+    <PackageReference Include="Xamarin.AndroidX.Annotation" Version="1.1.0.9" />
+    <PackageReference Include="Xamarin.Kotlin.StdLib.Jdk8" Version="1.6.0" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
